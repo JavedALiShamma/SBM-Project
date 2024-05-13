@@ -1,0 +1,16 @@
+.AddCTMap{
+    background-color: rgb(47, 255, 109);
+    width:100px ;
+}
+.display-off{
+    display: none;
+}
+#CTUserInput{
+    width: 50%;
+    height: 80%;
+    border: 2px solid grey;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border-radius: 10px;
+}

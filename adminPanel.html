@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script>(g=>{var h,a,k,p="The Google Maps JavaScript API",c="google",l="importLibrary",q="__ib__",m=document,b=window;b=b[c]||(b[c]={});var d=b.maps||(b.maps={}),r=new Set,e=new URLSearchParams,u=()=>h||(h=new Promise(async(f,n)=>{await (a=m.createElement("script"));e.set("libraries",[...r]+"");for(k in g)e.set(k.replace(/[A-Z]/g,t=>"_"+t[0].toLowerCase()),g[k]);e.set("callback",c+".maps."+q);a.src=`https://maps.${c}apis.com/maps/api/js?`+e;d[q]=f;a.onerror=()=>h=n(Error(p+" could not load."));a.nonce=m.querySelector("script[nonce]")?.nonce||"";m.head.append(a)}));d[l]?console.warn(p+" only loads once. Ignoring:",g):d[l]=(f,...n)=>r.add(f)&&u().then(()=>d[l](f,...n))})
+      ({key: "AIzaSyCV_KMd361LiXqgpElJRjjTYe5oKtuaG0A", v: "weekly"});</script>
+    <link rel="stylesheet" href="adminPanel.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <button id="addCTInMap" class="AddCTMap">Add Commuinty Toilet</button> -->
+   
+    <form id="CTUserInput">
+        <div class="mb-3">
+          <label for="AdressOfCT" class="form-label">Adress of Community Toilet</label>
+          <input type="text" class="form-control" id="AdressOfCT" aria-describedby="emailHelp">
+          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+        </div>
+       
+        <div>
+            <label for="latitude">Enter the latitude</label>
+            <input class="form-control" type="text"  id="latitude">
+            <label for="longitude"></label>Enter the longitude
+            <input class="form-control" type="text"  id="longitude">
+        </div>
+        <div>
+            <label for="CTImage">Enter Image</label>
+            <input id="CTImage" type="file"  alt="Submit" style="float:right" width="48" height="48">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+      <div>
+        Image Uploaded
+        <img id="CtImage"src="" alt="">
+      </div>
+      <script type="modeule" src="script.js"></script>
+      <!-- <script type="module" src="index.js"></script> -->
+      <script type="module" src="./CommunityToiletfinder.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

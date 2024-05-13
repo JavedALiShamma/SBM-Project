@@ -1,0 +1,53 @@
+.swachh-icon{
+    width: 120px !important;
+    background-blend-mode: color-burn;
+    
+}
+.SwachhImage-Div{
+    background-color: #F8F9FA;
+}
+.rightDownBar{
+    width:100% ;
+    background-color:#e7e7e7;
+    text-align: center;
+    text-decoration: none;
+}
+.rightDownBar >a{
+    text-decoration: none;
+    color: black;
+}
+.footer1{
+    width: 100%;
+    height: 30%;
+    position: absolute;
+    bottom: 10px;
+    /* border: 1px solid grey; */
+    background-color: #F8F9FA;
+}
+.NearMeContainer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 10%;
+    justify-content: space-between;
+    padding: 10px;
+    
+    
+}
+.nearMebadge{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: fit-content;
+    background-color: rgba(128, 128, 128, 0.318);
+    border-radius: 10px;
+    padding: 5px;
+}
+.nearMebadge>img{
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+    /* border: 1px solid red; */
+}
