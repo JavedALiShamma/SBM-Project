@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: black;
+
+}
+.mainContainer{
+    width: 98%;
+    height: 100vh;
+    margin: 2%;
+    border: 1px solid blue;
+    padding: 2%;
+    border-radius:10px;
+}
+#publicToiletLog{
+    width: 98%;
+    height: 30%;
+    border:1px solid blue;
+    margin: 2%;
+    padding: 2%;
+    border-radius: 10px;
+    background: rgb(224,149,206);
+    background: linear-gradient(199deg, rgba(224,149,206,0.8182870560333508) 36%, rgba(31,132,230,0.7482590448288691) 53%);
+}
+#publicToiletLog{
+    display: flex;
+    flex-direction: column;
+}
+.formContainer{
+    width: 98%;
+    height: 70%;
+    border: 1px solid grey;
+    margin: 2%;
+    border-radius: 10px;
+    padding: 2%;
+}
+.badge{
+    width: 98%;
+    height: 20%;
+    background-color: rgb(248,252,255);
+    border-radius:20px;
+    /* border: 1px solid red; */
+    margin: 2%;
+    padding: 2%;
+    position: relative;
+}
+.badgeImage{
+   width: 20%;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;   
+    border: 1px solid rgba(114, 51, 238, 0.442);
+    color: black;
+    position: absolute;
+    left: 0%;
+}
+.QuestionForm{
+    width: 80%;
+    height: auto;
+    color: black;
+    flex-direction: row;
+    position: absolute;
+    right: 0%;
+}
+.temp{
+    border: 1px solid red;
+}
+.options{
+    /* display: flex; */
+    /* justify-content: space-between; */
+}
